@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo1.png";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaBars,
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaTimes,
+  FaVoicemail,
+} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navber = () => {
   const [nav, setNav] = useState(false);
@@ -40,7 +49,36 @@ const Navber = () => {
       </ul>
 
       {/* social icons */}
-      <div className="hidden"></div>
+      {/* linkedin */}
+      <div className="flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800">
+            <a className="flex justify-between items-center w-full" href="/">
+              Linkedin
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          {/* github */}
+          <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
+            <a className="flex justify-between items-center w-full" href="/">
+              Github
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-red-900">
+            <a className="flex justify-between items-center w-full" href="/">
+              Email
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <a className="flex justify-between items-center w-full" href="/">
+              Resume
+              <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
