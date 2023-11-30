@@ -1,11 +1,10 @@
 import Navber from "./components/Navber";
-import Home from "./components/Home";
-
+import HomeBar from "./components/HomeBar";
 function App() {
   return (
     <div>
       <Navber />
-      <Home />
+      <HomeBar />
     </div>
   );
 }
