@@ -18,12 +18,42 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nihil laboriosam sapiente atque fugiat! Corporis porro recusandae
-              corrupti accusantium delectus molestiae eum nulla perspiciatis
-              quasi ullam repellendus, quaerat ratione pariatur qui modi quod?
-              Reiciendis quos cumque voluptate sit rerum sequi delectus
-              molestiae veniam libero? Quae impedit dignissimos hic enim vero.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum,
+              perferendis aliquid accusamus molestias explicabo autem quos dolor
+              ad nihil magnam maxime? Consequatur eveniet officia odio libero.
+              Tempora amet ea ex! Expedita ad est quam. Tempore ipsa saepe rem
+              facilis delectus in consectetur repellat, aut molestiae possimus.
+              Id deleniti quidem reiciendis alias animi? Aspernatur ab placeat
+              nesciunt fuga vel maiores illo error hic! Maxime, numquam. Illo
+              ipsum accusantium itaque. Nostrum similique, id nam dicta facere
+              incidunt quisquam inventore, sint quo vitae numquam. Eligendi
+              tenetur a eum magnam, accusantium quam labore. Blanditiis velit
+              eaque quisquam. Veritatis dolor eos adipisci ipsum quas animi
+              maxime voluptatibus sint aliquam esse. A, provident necessitatibus
+              laborum dolor natus tempora porro, voluptatem accusamus ratione
+              repellendus quibusdam quidem nesciunt vero blanditiis, nihil illo
+              inventore molestiae recusandae cum nisi possimus. Dolore
+              aspernatur esse, alias obcaecati, assumenda excepturi est impedit
+              velit quis, suscipit eligendi facilis voluptates dolores. Eum
+              magni a cumque eos vero, numquam suscipit, ut deleniti et
+              molestias eaque! Assumenda atque asperiores dolor culpa officia
+              aperiam optio error debitis expedita obcaecati, molestias non
+              blanditiis vitae quisquam beatae explicabo nemo, ut tempora sequi?
+              Voluptatum commodi esse minima voluptates sed nemo! Nam expedita
+              corporis ullam optio perspiciatis labore deleniti, reiciendis iste
+              modi laboriosam, velit sequi magnam aliquam commodi sunt provident
+              quisquam magni? Facere explicabo quasi molestias iste beatae
+              libero dolores, provident ipsa quidem sapiente, ducimus minus odio
+              ex quibusdam a voluptatum! Quia nesciunt eius nobis minima natus
+              harum debitis, reiciendis nulla veritatis aliquid totam
+              perferendis amet ea pariatur expedita. Non quam praesentium
+              aliquid ipsam fuga maiores consequatur officiis. Dolores aliquid
+              explicabo perspiciatis vero voluptatum dolorem accusamus maxime
+              eos a molestiae hic facere quia doloribus minus autem expedita
+              corrupti, deserunt exercitationem illum cupiditate ex similique
+              rerum fugiat quam? Nihil accusantium aliquam provident rerum.
+              Molestiae, corporis quod iure nulla facere dicta odio incidunt
+              maxime.
             </p>
           </div>
         </div>
