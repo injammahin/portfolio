@@ -2,6 +2,7 @@ import Navber from "./components/Navber";
 import HomeBar from "./components/HomeBar";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Work from "./components/Work";
 function App() {
   return (
     <div>
@@ -9,6 +10,7 @@ function App() {
       <HomeBar />
       <About />
       <Skills />
+      <Work />
     </div>
   );
 }

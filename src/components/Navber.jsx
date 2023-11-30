@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Navber = () => {
   const [nav, setNav] = useState(false);
@@ -22,7 +23,7 @@ const Navber = () => {
       {/* menu */}
       <div className=" hidden md:flex">
         <ul className=" hidden md:flex ">
-          <li>home</li>
+          <li></li>
           <li>about</li>
           <li>skills</li>
           <li>work</li>
