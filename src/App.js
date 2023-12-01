@@ -3,6 +3,7 @@ import HomeBar from "./components/HomeBar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import MouseHover from "./components/Mousehover";
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <MouseHover />
     </div>
   );
 }
