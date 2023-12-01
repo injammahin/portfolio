@@ -16,7 +16,7 @@ const HomeBar = () => {
         <div className="avatar mx-[700px]  ">
           <div className="w-96 rounded-full ">
             <img
-              className="shadow-lg hover:shadow-[#a8e2e2] hover:scale-110 duration-300
+              className="shadow-xl hover:shadow-[#6fbbbb] hover:scale-110 duration-300
               rounded-full mx-auto"
               src={profile}
               alt="profile "

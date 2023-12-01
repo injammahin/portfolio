@@ -27,13 +27,13 @@ const Navber = () => {
             Home
           </li>
           <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            about
+            About
           </li>
           <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            skills
+            Skills
           </li>
           <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            work
+            Work
           </li>
           <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
             Contract
