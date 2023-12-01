@@ -1,14 +1,29 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import profile from "../assets/profile.jpeg";
 const HomeBar = () => {
   return (
     <div name="home" className="w-full h-screen bg-gray-800">
       {/* containter */}
+
       <div className=" max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className=" text-pink-600">Hi, my name is </p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl  sm:text-6xl font-bold text-[#ccd6f6]">
           Mahin Nur
         </h1>
+        {/* ///////// */}
+
+        <div className="avatar mx-[700px]  ">
+          <div className="w-96 rounded-full ">
+            <img
+              className="shadow-lg hover:shadow-[#a8e2e2] hover:scale-110 duration-300
+              rounded-full mx-auto"
+              src={profile}
+              alt="profile "
+            />
+          </div>
+        </div>
+        {/* /////// */}
         <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
           I,m a full stack developer
         </h2>
