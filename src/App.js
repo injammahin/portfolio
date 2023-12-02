@@ -11,8 +11,8 @@ function App() {
       <HomeBar />
       <About />
       <Skills />
-      <Work />
       <MouseHover />
+      <Work />
     </div>
   );
 }
