@@ -13,14 +13,20 @@ const MouseHover = () => {
         const eyeeRect = eyee.getBoundingClientRect();
 
         const x =
-          event.pageX -
+          event.clientX -
           eyesContainer.offsetLeft -
-          eyesContainer.offsetWidth / 2;
+          eyesContainer.offsetWidth / 2 +
+          eyeRect.left +
+          eyeRect.width / 2 -
+          eyeeRect.width / 2;
 
         const y =
-          event.pageY -
+          event.clientY -
           eyesContainer.offsetTop -
-          eyesContainer.offsetHeight / 2;
+          eyesContainer.offsetHeight / 2 +
+          eyeRect.top +
+          eyeRect.height / 2 -
+          eyeeRect.height / 2;
 
         // Ensure the eyee stays within the boundaries of the eye
         const maxX = eyeRect.width - eyeeRect.width;
@@ -44,13 +50,13 @@ const MouseHover = () => {
     <div id="project_container" className="bg-gray-800 text-center">
       <div id="projectbox" className="face relative">
         {/* Start project HTML */}
-        <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4  relative">
-          <div className="eyee absolute bg-red-600 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
+        <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4 animate-bounce relative">
+          <div className="eyee absolute bg-gray-300 h-6 w-6 rounded-full transition-transform ease-in-out duration-900 transform">
             {/* Content of eyee (if any) */}
           </div>
         </div>
-        <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4  relative">
-          <div className="eyee absolute bg-red-500 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
+        <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4 animate-bounce relative">
+          <div className="eyee absolute bg-gray-300 h-6 w-6 rounded-full transition-transform ease-in-out duration-900 transform">
             {/* Content of eyee (if any) */}
           </div>
         </div>
