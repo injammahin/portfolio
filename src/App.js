@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import MouseHover from "./components/Mousehover";
+import Arrow from "./components/Arrow";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <MouseHover />
       <Work />
+      <Arrow />
     </div>
   );
 }
