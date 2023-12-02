@@ -45,12 +45,12 @@ const MouseHover = () => {
       <div id="projectbox" className="face relative">
         {/* Start project HTML */}
         <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4  relative">
-          <div className="eyee absolute bg-red-600 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
+          <div className="eyee absolute bg-gray-900 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
             {/* Content of eyee (if any) */}
           </div>
         </div>
         <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4  relative">
-          <div className="eyee absolute bg-red-500 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
+          <div className="eyee absolute bg-gray-900 h-6 w-6 rounded-full transition-transform ease-in-out duration-800 transform">
             {/* Content of eyee (if any) */}
           </div>
         </div>
