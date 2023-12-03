@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import "tailwindcss/tailwind.css";
 
 const ExclamationSign = () => {
   const canvasRef = useRef(null);
@@ -18,8 +19,8 @@ const ExclamationSign = () => {
     window.addEventListener("resize", handleResize);
 
     for (let y = 0; y < canvas.height / 20; y++) {
-      for (let x = 0; x < canvas.width / 100; x++) {
-        const exclamation = new Exclamation(new Point(x * 35, y * 35));
+      for (let x = 0; x < canvas.width / 80; x++) {
+        const exclamation = new Exclamation(new Point(x * 25, y * 25));
         exclamationArr.push(exclamation);
       }
     }
@@ -47,8 +48,8 @@ const ExclamationSign = () => {
   };
 
   function Point(x, y) {
-    this.x = x || 0;
-    this.y = y || 0;
+    this.x = x || 20;
+    this.y = y || 20;
   }
 
   function Exclamation(position) {
@@ -72,12 +73,9 @@ const ExclamationSign = () => {
       ctx.beginPath();
 
       ctx.moveTo(0, 0);
-      ctx.lineTo(0, -20);
-      ctx.moveTo(0, 0);
-      ctx.lineTo(0, 10);
-      ctx.arc(0, 15, 5, 0, 2 * Math.PI);
+      ctx.lineTo(0, 20); // Change this to adjust the length of the line
       ctx.lineWidth = 2;
-      ctx.strokeStyle = "blue";
+      ctx.strokeStyle = "#27005D";
       ctx.stroke();
 
       ctx.restore();
@@ -89,7 +87,7 @@ const ExclamationSign = () => {
     if (!canvas) return;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "#31304D";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     for (let y = 0; y < canvas.height / 20; y++) {
@@ -101,6 +99,7 @@ const ExclamationSign = () => {
     animationFrameId = requestAnimationFrame(main);
   }
 
-  return <canvas ref={canvasRef} className="exclamation"></canvas>;
+  return <canvas ref={canvasRef} className="bg-gray-800 exclamation"></canvas>;
 };
+
 export default ExclamationSign;

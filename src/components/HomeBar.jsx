@@ -41,10 +41,11 @@ const HomeBar = () => {
       </div>
 
       {/* Right Container */}
-      <div className="hidden xl:flex flex-col justify-end mx-44 my-40">
+
+      <div className=" md:block  flex-col justify-end mx-44 my-40">
         <div className="w-96 rounded-full mx-auto">
           <img
-            className="shadow-xl hover:shadow-[#6fbbbb] hover:scale-110 duration-300 rounded-full"
+            className=" shadow-xl hover:shadow-[#6fbbbb] hover:scale-110 duration-300 rounded-full"
             src={profile}
             alt="profile"
           />

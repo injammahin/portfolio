@@ -1,0 +1,22 @@
+.follower {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 255, 0, 0.905);
+  border-radius: 50%;
+}
+
+.visible {
+  display: flow-root;
+}
+
+.hidden {
+  display: none;
+}
+.visible-text {
+  visibility: visible;
+}
+
+.hidden-text {
+  visibility: hidden;
+}
