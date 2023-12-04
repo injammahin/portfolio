@@ -95,35 +95,35 @@ const Navber = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800">
-            <Link
+            <a
               className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/mahin-nur-89063820a/"
             >
               Linkedin
               <FaLinkedin size={30} />
-            </Link>
+            </a>
           </li>
           {/* github */}
           <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
-            <Link
+            <a
               className="flex justify-between items-center w-full"
               href="https://github.com/injammahin"
             >
               Github
               <FaGithub size={30} />
-            </Link>
+            </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-red-900">
-            <Link className="flex justify-between items-center w-full" href="/">
+            <a className="flex justify-between items-center w-full" href="/">
               Email
               <HiOutlineMail size={30} />
-            </Link>
+            </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <Link className="flex justify-between items-center w-full" href="/">
+            <a className="flex justify-between items-center w-full" href="/">
               Resume
               <BsFillPersonLinesFill size={30} />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
