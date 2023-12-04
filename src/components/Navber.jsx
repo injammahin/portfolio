@@ -24,19 +24,29 @@ const Navber = () => {
       <div className=" hidden md:flex">
         <ul className=" hidden md:flex ">
           <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            Home
+            <Link to="home" spy={true} smooth={true}>
+              Home
+            </Link>
           </li>
-          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            About
+          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 ">
+            <Link to="about" spy={true} smooth={true}>
+              about
+            </Link>
           </li>
-          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            Skills
+          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 ">
+            <Link to="skills" spy={true} smooth={true}>
+              Skills
+            </Link>
           </li>
-          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            Work
+          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 ">
+            <Link to="skills" spy={true} smooth={true}>
+              Skills
+            </Link>
           </li>
-          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500">
-            Contract
+          <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 ">
+            <Link to="contract" spy={true} smooth={true}>
+              Contract
+            </Link>
           </li>
         </ul>
       </div>
@@ -52,11 +62,31 @@ const Navber = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className=" py-6 text-3xl">home</li>
-        <li className=" py-6 text-3xl">about</li>
-        <li className=" py-6 text-3xl">skills</li>
-        <li className=" py-6 text-3xl">work</li>
-        <li className=" py-6 text-3xl">Contract</li>
+        <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 py-6 text-3xl">
+          <Link onClick={handleClick} to="home" spy={true} smooth={true}>
+            Home
+          </Link>
+        </li>
+        <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 py-6 text-3xl">
+          <Link onClick={handleClick} to="about" spy={true} smooth={true}>
+            about
+          </Link>
+        </li>
+        <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 py-6 text-3xl">
+          <Link onClick={handleClick} to="skills" spy={true} smooth={true}>
+            Skills
+          </Link>
+        </li>
+        <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 py-6 text-3xl">
+          <Link onClick={handleClick} to="skills" spy={true} smooth={true}>
+            Skills
+          </Link>
+        </li>
+        <li className="hover:underline hover:scale-x-150 hover:scale-y-150 duration-500 py-6 text-3xl">
+          <Link onClick={handleClick} to="contract" spy={true} smooth={true}>
+            Contract
+          </Link>
+        </li>
       </ul>
 
       {/* social icons */}

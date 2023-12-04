@@ -41,7 +41,10 @@ const MouseHover = () => {
   }, []);
 
   return (
-    <div id="project_container" className="bg-gray-800 text-center">
+    <div
+      id="project_container"
+      className=" hidden md:block bg-gray-800 text-center"
+    >
       <div id="projectbox" className="face relative">
         {/* Start project HTML */}
         <div className="eye inline-block text-center bg-gray-200 h-16 w-16 rounded-full mb-4  relative">

@@ -6,7 +6,7 @@ const HomeBar = () => {
   return (
     <div name="home" className="w-full h-screen bg-gray-800 flex">
       {/* Left Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="  max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="my-[100px]">
           <p className="text-pink-600">Hi, my name is </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
@@ -42,7 +42,7 @@ const HomeBar = () => {
 
       {/* Right Container */}
 
-      <div className=" md:block  flex-col justify-end mx-44 my-40">
+      <div className=" hidden md:flex   flex-col justify-end mx-auto my-64">
         <div className="w-96 rounded-full mx-auto">
           <img
             className=" shadow-xl hover:shadow-[#6fbbbb] hover:scale-110 duration-300 rounded-full"
