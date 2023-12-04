@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo1.png";
-
+import Sound from "../assets/m1.mp3";
 import {
   FaBars,
   FaFacebook,
@@ -16,6 +16,10 @@ import { Link } from "react-scroll";
 const Navber = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  function play() {
+    new Audio(Sound).play();
+  }
+
   return (
     <div className=" fixed flex w-full h-[60px] justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -25,27 +29,27 @@ const Navber = () => {
       <div className=" hidden md:flex">
         <ul className="c hidden md:flex ">
           <li className="custom hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            <Link to="home" spy={true} smooth={true}>
+            <Link to="home" onClick={play} spy={true} smooth={true}>
               Home
             </Link>
           </li>
           <li className="custom hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            <Link to="about" spy={true} smooth={true}>
+            <Link to="about" onClick={play} spy={true} smooth={true}>
               about
             </Link>
           </li>
           <li className=" custom  hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            <Link to="skills" spy={true} smooth={true}>
+            <Link to="skills" onClick={play} spy={true} smooth={true}>
               Skills
             </Link>
           </li>
           <li className="custom hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            <Link to="work" spy={true} smooth={true}>
+            <Link to="work" onClick={play} spy={true} smooth={true}>
               Work
             </Link>
           </li>
           <li className="custom hover:scale-x-150 hover:scale-y-150 duration-500 ">
-            <Link to="contract" spy={true} smooth={true}>
+            <Link to="contract" onClick={play} spy={true} smooth={true}>
               Contract
             </Link>
           </li>
