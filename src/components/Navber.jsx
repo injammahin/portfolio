@@ -23,7 +23,7 @@ const Navber = () => {
   return (
     <div className=" fixed flex w-full h-[60px] justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
+        <img src={Logo} alt="Logo image" style={{ width: "60px" }} />
       </div>
       {/* menu */}
       <div className=" hidden md:flex">
