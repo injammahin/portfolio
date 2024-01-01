@@ -45,7 +45,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
             <img className="w-20 mx-auto" src={ReactImg} alt="React icon" />
-            <p className="my-4">React</p>
+            <p className="my-4">React Native</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
             <img className="w-20 mx-auto" src={Node} alt="Node icon" />
@@ -62,6 +62,22 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
             <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
             <p className="my-4">HTML</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
+            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <p className="my-4">Next. js</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
+            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <p className="my-4">Nest. js</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
+            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <p className="my-4">EXPRESS. JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
+            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <p className="my-4">React. JS</p>
           </div>
         </div>
       </div>
