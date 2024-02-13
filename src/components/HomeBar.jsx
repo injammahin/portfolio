@@ -16,18 +16,11 @@ const HomeBar = () => {
             I'm a full stack developer
           </h2>
           <p className="text-white py-4 max-w-[700px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            architecto ab eos ipsum recusandae? Aperiam natus quas, tenetur
-            repellat totam error! Incidunt nisi consequuntur nostrum libero
-            repellendus praesentium, cum ad inventore beatae quis, ut optio
-            provident dolor modi voluptatibus eveniet hic ratione quaerat saepe
-            expedita assumenda eos? Quam nobis odit, necessitatibus, nihil
-            explicabo dignissimos deleniti beatae earum dolorum iste sunt
-            accusantium commodi natus autem libero placeat ullam voluptas enim?
-            Non delectus perspiciatis accusantium consectetur soluta iusto
-            minima porro aut. Similique laborum vero tempora provident totam
-            perspiciatis ipsam fuga iusto, sint doloribus quas dolorem mollitia
-            debitis eum dolore voluptatum facere quia.
+            I am a junior programmer with proven skills in c++, javascript and
+            python. Focused on keeping a tight architecture to minimize errors
+            and bugs. Successfully designed and built several useful
+            applications and IOS. Offering a strong foundation in software
+            engineering and the newest knowledge within database management.
           </p>
           <div>
             <button className="text-white group border-2 px-6 py-2 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

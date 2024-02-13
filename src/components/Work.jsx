@@ -3,6 +3,7 @@ import WorkImg from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/work.png";
 import realEstatee from "../assets/workk.png";
 import realEstat from "../assets/wor.png";
+import work from "../assets/woork.png";
 const Work = () => {
   return (
     <div
@@ -93,7 +94,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${work})` }}
             className="shadow-lg shadow[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
