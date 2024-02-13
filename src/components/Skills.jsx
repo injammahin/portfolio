@@ -9,6 +9,10 @@ import AWS from "../assets/aws.png";
 import GitHub from "../assets/github.png";
 import Tailwild from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import typescript from "../assets/typescript.png";
+import NEST from "../assets/neat.png";
+import NExT from "../assets/next.png";
+import PYTHON from "../assets/python.jpeg";
 import { FaAws } from "react-icons/fa";
 import { fireEvent } from "@testing-library/react";
 
@@ -64,20 +68,20 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
-            <p className="my-4">Next. js</p>
+            <img className="w-20 mx-auto" src={typescript} alt="HTML icon" />
+            <p className="my-4">typescript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
-            <p className="my-4">Nest. js</p>
+            <img className="w-20 mx-auto" src={NEST} alt="HTML icon" />
+            <p className="my-4">NEST JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
-            <p className="my-4">EXPRESS. JS</p>
+            <img className="w-20 mx-auto" src={NExT} alt="HTML icon" />
+            <p className="my-4">NEXT. JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
-            <p className="my-4">React. JS</p>
+            <img className="w-20 mx-auto" src={PYTHON} alt="HTML icon" />
+            <p className="my-4">PYTHON</p>
           </div>
         </div>
       </div>

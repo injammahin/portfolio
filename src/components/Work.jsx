@@ -1,6 +1,8 @@
 import React from "react";
 import WorkImg from "../assets/projects/workImg.jpeg";
-import realEstate from "../assets/projects/realestate.jpg";
+import realEstate from "../assets/work.png";
+import realEstatee from "../assets/workk.png";
+import realEstat from "../assets/wor.png";
 const Work = () => {
   return (
     <div
@@ -19,7 +21,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md-grid-cols-3  gap-4">
           {/* grid items */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${realEstatee})` }}
             className="shadow-lg shadow[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -67,7 +69,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${realEstat})` }}
             className="shadow-lg shadow[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
